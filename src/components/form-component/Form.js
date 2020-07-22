@@ -2,71 +2,19 @@ import React, { useState } from 'react';
 import SearchBar from '../search-bar-component/SearchBar';
 
 import Button from '../shared/button-component/Button';
-
-import './form.styles.css';
 import ToRentForm from '../to-rent-form-component/ToRentForm';
 import ForSale from '../for-sale-form-component/ForSale';
 
-let noMin = [
-  {
-    id: 1,
-    value: 'No Min',
-  },
-];
-let noMax = [
-  {
-    id: 1,
-    value: 'No max',
-  },
-];
-let property = [
-  {
-    id: 1,
-    value: 'Show all',
-  },
-  {
-    id: 2,
-    value: 'House',
-  },
-  {
-    id: 3,
-    value: 'Flats',
-  },
-  {
-    id: 4,
-    value: 'Farms/land',
-  },
-];
-let bedrooms = [
-  {
-    id: 1,
-    value: 'No mins',
-  },
-  {
-    id: 2,
-    value: 'Studio+',
-  },
-  {
-    id: 3,
-    value: '1+',
-  },
-  {
-    id: 4,
-    value: '2+',
-  },
-  {
-    id: 5,
-    value: '3+',
-  },
-  {
-    id: 6,
-    value: '4+',
-  },
-  {
-    id: 7,
-    value: '5+',
-  },
-];
+import {
+  noMax,
+  noMin,
+  distance,
+  dateAdded,
+  property,
+  bedrooms,
+  sortBy,
+} from '../../db/formdate';
+import './form.styles.css';
 
 const Form = ({ propertyType, active }) => {
   const [visible, setVisible] = useState(false);
@@ -84,8 +32,11 @@ const Form = ({ propertyType, active }) => {
           property={property}
           bedrooms={bedrooms}
           properType={propertyType}
+          distance={distance}
+          sortBy={sortBy}
           visible={visible}
           label={active.label}
+          dateAdded={dateAdded}
         />
       );
     }
@@ -97,6 +48,9 @@ const Form = ({ propertyType, active }) => {
           noMax={noMax}
           property={property}
           bedrooms={bedrooms}
+          distance={distance}
+          dateAdded={dateAdded}
+          sortBy={sortBy}
           properType={propertyType}
           visible={visible}
           label={active.label}
@@ -106,15 +60,18 @@ const Form = ({ propertyType, active }) => {
       return null;
     }
   };
-
+  const setPlaceholder = () => {
+    if (active.label === 'for sale' || active.label === 'to rent') {
+      return 'e.g Oxford, NW3 or Waterloo Station';
+    } else {
+      return 'e.g. Acacia Avenue or TW19 5NW';
+    }
+  };
   return (
     <React.Fragment>
       <div className="form-container">
         <form>
-          <SearchBar
-            isVisible={true}
-            placeholder="e.g Oxford, NW3 or Waterloo Station"
-          />
+          <SearchBar isVisible={true} placeholder={setPlaceholder()} />
           {setFormDisplay()}
           <div className="footer-bottom-dropdown">
             {active.label === 'house prices' ? null : (

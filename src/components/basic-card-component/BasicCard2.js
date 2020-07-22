@@ -10,7 +10,7 @@ const BasicCard = () => {
           .filter((blog) => blog.type === 'property guides')
           .map((b, i) => (
             <li key={b.id} className="card-grid-item">
-              <a>
+              <a href="/">
                 <span className="basic-card-img">
                   <img src={b.image} alt={b.heading} />
                 </span>

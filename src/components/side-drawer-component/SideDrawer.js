@@ -6,24 +6,24 @@ import UserArea from '../shared/user-area-component/UserArea';
 import CloseButton from '../shared/close-button-component/CloseButton';
 
 const SideDrawer = ({ hidden, handleSideDrawerOpen }) => {
-	return (
-		<div className={hidden ? 'side-drawer open' : 'side-drawer'}>
-			<div className='side-drawer-content'>
-				<CloseButton handleSideDrawerOpen={handleSideDrawerOpen} />
-				<div className='side-drawer-content-inner'>
-					<nav>
-						<ul>
-							<HeaderButton content='My enquiries' sidebarStyles={true} />
-							<HeaderButton content='View my home' sidebarStyles={true} />
-							<HeaderButton content='sign in' sidebarStyles={true} />
-						</ul>
-						<UserArea />
-					</nav>
-					<SideBarLinks />
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div className={hidden ? 'side-drawer open' : 'side-drawer'}>
+      <div className="side-drawer-content">
+        <CloseButton handleSideDrawerOpen={handleSideDrawerOpen} />
+        <div className="side-drawer-content-inner">
+          <nav>
+            <ul>
+              <HeaderButton content="My enquiries" sidebarStyles={true} />
+              <HeaderButton content="View my home" sidebarStyles={true} />
+              <HeaderButton content="Sign in" sidebarStyles={true} />
+            </ul>
+            <UserArea />
+          </nav>
+          <SideBarLinks />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 // SideDrawer.propTypes = {
