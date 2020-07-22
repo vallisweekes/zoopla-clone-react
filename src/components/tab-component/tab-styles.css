@@ -1,0 +1,15 @@
+.MuiPaper-elevation1 {
+	box-shadow: none !important;
+}
+
+#tab.MuiPaper-root.makeStyles-root-1.MuiPaper-elevation1.MuiPaper-rounded {
+	background-color: none !important;
+	border-radius: none;
+	width: 300px;
+}
+.MuiPaper-root {
+	min-height: 30px !important;
+}
+#trysomn {
+	background-color: none;
+}

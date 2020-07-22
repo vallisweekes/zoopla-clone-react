@@ -1,0 +1,15 @@
+.basic-block {
+	margin: 0 auto;
+	height: auto;
+	padding: 0 1em;
+	/* background-color: red; */
+}
+
+@media (min-width: 768px) {
+	.basic-block {
+		max-width: 1200;
+		margin: 0 auto;
+		height: 320px;
+		padding: 0 1em;
+	}
+}

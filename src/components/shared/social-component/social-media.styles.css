@@ -1,0 +1,25 @@
+ul.social-media-content {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	height: 35px !important;
+	align-items: center !important;
+	/* grid-template-columns: repeat(5, 35px); */
+}
+
+@media (min-width: 375px) {
+	ul.social-media-content {
+		max-width: 320px;
+	}
+}
+
+li.footer-social {
+	width: 35px !important;
+	height: 35px !important;
+	padding: 0 !important;
+	display: flex;
+	align-items: center;
+}
+li.footer-social img {
+	display: block;
+}

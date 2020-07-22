@@ -1,0 +1,79 @@
+.home-validation {
+	display: block;
+	height: 50%;
+}
+
+@media (min-width: 768px) {
+	.home-validation {
+		display: grid;
+		grid-template-columns: 1fr 1fr !important;
+		height: 100%;
+	}
+}
+
+.home-validation-img {
+	width: 100%;
+	background: url('https://z.zoocdn.com/www/b/zoopla/static/images/home-valuation-2019-283a124d47.png') no-repeat center;
+	background-size: cover;
+	flex: 1 0 auto;
+	height: 50%;
+	min-width: auto;
+	overflow: hidden;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+@media (min-width: 768px) {
+	.home-validation-img {
+		height: 100%;
+	}
+}
+.home-validation-content {
+	background-color: #f8f8f8;
+	padding: 1rem 1rem 1rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50%;
+}
+
+.home-validation-content-wrap {
+	font-family: Lato, sans-serif;
+	letter-spacing: 0.2px;
+	line-height: 26px;
+	margin: 1em auto;
+	width: 100%;
+}
+.home-validation-content-wrap h3 {
+	font-size: 1rem;
+	text-align: center;
+}
+/* .home-validation-content h3 {
+	
+	line-height: 30px;
+} */
+
+.home-validation-content-wrap p {
+	font-size: 1rem;
+	margin: 1em 0;
+}
+
+@media (min-width: 768px) {
+	.home-validation-content {
+		height: 100%;
+	}
+
+	.home-validation-content-wrap {
+		font-family: Lato, sans-serif;
+		letter-spacing: 0.2px;
+		line-height: 26px;
+		margin: 1em auto;
+		width: 350px;
+	}
+	.home-validation-content-wrap h3 {
+		font-size: 1.4rem;
+	}
+}

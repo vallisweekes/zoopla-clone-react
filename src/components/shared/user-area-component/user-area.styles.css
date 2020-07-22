@@ -1,0 +1,15 @@
+ul#side-drawer-content-user {
+	display: flex;
+	flex-direction: row !important;
+	padding-top: 0 !important;
+}
+
+#side-drawer-content-user li {
+	width: 30px;
+	height: 30px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+#side-drawer-content-user li img {
+	width: 100%;
+}

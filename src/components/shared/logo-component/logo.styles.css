@@ -1,0 +1,11 @@
+.navbar-logo {
+	width: 100px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	/* margin-bottom: 1rem; */
+}
+.navbar-logo img {
+	display: block;
+	width: 100%;
+}

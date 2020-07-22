@@ -1,0 +1,40 @@
+{
+	"results": [
+		{
+			"id": 1,
+			"image": "https://c.zoocdn.com/dynimgs/cms/header/article/17826?primary_brand=zoopla",
+			"heading": "5 property-related takeaways from the Summer Economic Update",
+			"type": "property news"
+		},
+		{
+			"id": 2,
+			"image": "https://c.zoocdn.com/dynimgs/cms/header/article/17754?primary_brand=zoopla",
+			"heading": "Stamp duty holiday explained: what it could mean for you ",
+			"type": "property news"
+		},
+		{
+			"id": 3,
+			"image": "https://c.zoocdn.com/dynimgs/cms/header/article/17823?primary_brand=zoopla",
+			"heading": "Revealed: how lockdown has changed homehunters’ priorities",
+			"type": "property news"
+		},
+		{
+			"id": 4,
+			"image": "https://z.zoocdn.com/www/b/zoopla/static/images/zooploma-963a33172f.png",
+			"heading": "Zooploma: free guides straight to your inbox",
+			"type": "property guides"
+		},
+		{
+			"id": 5,
+			"image": "https://z.zoocdn.com/www/b/zoopla/static/images/buying-guides-b267cf3593.png",
+			"heading": "Buying guides",
+			"type": "property guides"
+		},
+		{
+			"id": 6,
+			"image": "https://z.zoocdn.com/www/b/zoopla/static/images/renting-guides-82e1ead3db.png",
+			"heading": "Renting guides",
+			"type": "property guides"
+		}
+	]
+}

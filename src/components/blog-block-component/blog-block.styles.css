@@ -1,0 +1,14 @@
+#blog-block {
+	width: 100%;
+}
+.blog-block-container {
+	width: 80%;
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 4rem 0 3rem 0;
+}
+.section-heading {
+	font-size: 1.2rem;
+	color: #262630;
+}

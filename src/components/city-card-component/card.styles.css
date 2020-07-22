@@ -1,0 +1,43 @@
+.card {
+	width: 100%;
+}
+
+.card img {
+	width: 100%;
+	border-top-left-radius: 5px;
+}
+.card-img-holder {
+	position: relative;
+	cursor: pointer;
+}
+.card-img-holder:hover {
+	-moz-box-shadow: -2px 4px 17px 0px rgba(194, 194, 194, 1);
+	box-shadow: -2px 4px 17px 0px rgba(194, 194, 194, 1);
+}
+
+.card-img-holder h3 {
+	position: absolute;
+	bottom: 10px;
+	padding-left: 0.8rem;
+	color: #ffffff;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	font-weight: bold;
+}
+.p-list-styles {
+	display: flex;
+	align-items: center;
+	padding: 0.7rem 0;
+	font-size: 0.9rem;
+}
+
+.sale-manchester:last-child {
+	color: #6a148e;
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+
+.sale-manchester:last-child svg {
+	display: none;
+}

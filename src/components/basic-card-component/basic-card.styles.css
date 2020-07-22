@@ -1,0 +1,33 @@
+.basic-card-container {
+	margin: 3rem 0 1rem 0;
+}
+.basic-card-container .basic-card-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	column-gap: 20px;
+}
+
+@media (min-width: 570px) {
+	.basic-card-container .basic-card-grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+.basic-card-container h3 {
+	font-size: 1rem;
+	padding-top: 1rem;
+	line-height: 1.5;
+}
+.basic-card-img {
+	/* width: 400px; */
+	height: 300px;
+}
+
+.basic-card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 7px;
+}
+
+.card-grid-item {
+}

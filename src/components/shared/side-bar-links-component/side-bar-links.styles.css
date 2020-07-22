@@ -1,0 +1,33 @@
+.sidebar-links-content {
+	width: 90%;
+	max-height: 600px;
+	padding-top: 2rem;
+	margin: 0 auto;
+}
+
+.sidebar-links-inner {
+	width: 100%;
+	font-size: 1rem;
+}
+.sidebar-links-item {
+	display: flex;
+	padding: 0.9rem 0;
+	cursor: pointer;
+}
+
+.sidebar-links-item:hover {
+	background-color: rgba(238, 238, 238, 0.468);
+	border-radius: 25px;
+}
+.sidebar-links-item a {
+	padding-left: 1rem;
+}
+.sidebar-links-item span {
+	width: 15px;
+	height: 15px;
+	margin-left: 1rem;
+}
+.sidebar-links-item span img {
+	transform: rotate(-90deg);
+	width: 100%;
+}

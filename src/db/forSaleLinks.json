@@ -1,0 +1,89 @@
+{
+	"results": [
+		{
+			"id": 1,
+			"city_list": "Aberdeen properties for sale"
+		},
+		{
+			"id": 2,
+			"city_list": "Devon properties for sale"
+		},
+		{
+			"id": 3,
+			"city_list": "Leicester properties for sale"
+		},
+		{
+			"id": 4,
+			"city_list": "Southampton properties for sale"
+		},
+		{
+			"id": 5,
+			"city_list": "Birmingham properties for sale"
+		},
+		{
+			"id": 6,
+			"city_list": "Dundee properties for sale"
+		},
+		{
+			"id": 7,
+			"city_list": "Northampton properties for sale"
+		},
+		{
+			"id": 8,
+			"city_list": "Swansea properties for sale"
+		},
+		{
+			"id": 9,
+			"city_list": "Bristol properties for sale"
+		},
+		{
+			"id": 10,
+			"city_list": "Essex properties for sale"
+		},
+		{
+			"id": 11,
+			"city_list": "Nottingham properties for sale"
+		},
+		{
+			"id": 12,
+			"city_list": "UK properties for sale"
+		},
+		{
+			"id": 13,
+			"city_list": "Cardiff properties for sale"
+		},
+		{
+			"id": 14,
+			"city_list": "Glasgow properties for sale"
+		},
+		{
+			"id": 15,
+			"city_list": "Plymouth properties for sale"
+		},
+
+		{
+			"id": 17,
+			"city_list": "Coventry properties for sale"
+		},
+		{
+			"id": 18,
+			"city_list": "Hull properties for sale"
+		},
+		{
+			"id": 19,
+			"city_list": "Reading properties for sale"
+		},
+		{
+			"id": 20,
+			"city_list": "Derby properties for sale"
+		},
+		{
+			"id": 21,
+			"city_list": "Kent properties for sale"
+		},
+		{
+			"id": 22,
+			"city_list": "Sheffield properties for sale"
+		}
+	]
+}

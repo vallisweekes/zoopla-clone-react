@@ -1,0 +1,25 @@
+.properties-list-section {
+	background: #f8f8f8;
+	width: 100%;
+}
+.properties-list-inner {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #f8f8f8cf;
+	padding: 3rem 0;
+}
+
+.p-top-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (min-width: 992px) {
+	.p-top-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

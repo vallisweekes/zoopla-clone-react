@@ -1,0 +1,68 @@
+{
+	"results": [
+		{
+			"id": 1,
+			"image": "https://www.zoopla.co.uk/static/images/home-page/carousel-for-sale-london.png",
+			"heading": "Properties for sale in london",
+			"city_list": ["Aberdeen properties for sale", "Birmingham properties for sale", "Bristol properties for sale", "Cardiff properties for sale", "Coventry properties for sale", "Derby properties for sale"],
+			"additional": "sale-london",
+			"status": "for sale"
+		},
+		{
+			"id": 2,
+			"image": "https://www.zoopla.co.uk/static/images/home-page/carousel-for-sale-edinburgh.png",
+			"heading": "Properties for sale edinburgh",
+			"city_list": [" Devon properties for sale", "Dundee properties for sale", "Essex properties for sale", " Glasgow properties for sale", "Hull properties for sale", " Kent properties for sale"],
+			"additional": "sale-edinburgh",
+			"status": "for sale"
+		},
+		{
+			"id": 3,
+			"image": "https://www.zoopla.co.uk/static/images/home-page/carousel-for-sale-liverpool.png",
+			"heading": "Properties for sale in liverpool",
+			"city_list": [" Leicester properties for sale", "Northampton properties for sale", "Nottingham properties for sale", "Plymouth properties for sale", "Reading properties for sale", "Sheffield properties for sale"],
+			"additional": "sale-liverpool",
+			"status": "for sale"
+		},
+		{
+			"id": 4,
+			"image": "https://www.zoopla.co.uk/static/images/home-page/carousel-for-sale-manchester.png",
+			"heading": "Properties for sale in manchester",
+			"city_list": [" Southampton properties for sale", "Swansea properties for sale", " UK properties for sale", "Browse all cities and towns in the UK"],
+			"additional": "sale-manchester",
+			"status": "for sale"
+		},
+		{
+			"id": 5,
+			"image": "https://www.zoopla.co.uk/static/images/home-page/carousel-to-rent-london.png",
+			"heading": "Properties for sale in london",
+			"city_list": ["Aberdeen properties for rent", "Birmingham properties for rent", "Bristol properties for rent", "Cardiff properties for rent", "Coventry properties for rent", "Derby properties for rent"],
+			"additional": "rent-london",
+			"status": "to rent"
+		},
+		{
+			"id": 6,
+			"image": "https://www.zoopla.co.uk/static/images/home-page/carousel-to-rent-edinburgh.png",
+			"heading": "Properties for sale edinburgh",
+			"city_list": [" Devon properties for rent", "Dundee properties for rent", "Essex properties for rent", " Glasgow properties for rent", "Hull properties for rent", " Kent properties for rent"],
+			"additional": "rent-edinburgh",
+			"status": "to rent"
+		},
+		{
+			"id": 7,
+			"image": "https://www.zoopla.co.uk/static/images/home-page/carousel-to-rent-liverpool.png",
+			"heading": "Properties for sale in liverpool",
+			"city_list": [" Leicester properties for rent", "Northampton properties for rent", "Nottingham properties for rent", "Plymouth properties for rent", "Reading properties for rent", "Sheffield properties for rent"],
+			"additional": "rent-liverpool",
+			"status": "to rent"
+		},
+		{
+			"id": 8,
+			"image": "https://www.zoopla.co.uk/static/images/home-page/carousel-to-rent-manchester.png",
+			"heading": "Properties for sale in manchester",
+			"city_list": [" Southampton properties for rent", "Swansea properties for rent", " UK properties for rent", "Browse all cities and towns in the UK"],
+			"additional": "rent-manchester",
+			"status": "to rent"
+		}
+	]
+}
